@@ -3,3 +3,6 @@ asal_sayi = 0                                            #kaç tane asal sayı o
 asal_sayi_toplam = 0
 for i in range(sayi):
     x = int(input("Sayı giriniz:"))
+    if x < 2:
+        print("Yanlış sayı girdiniz.")
+        exit()
