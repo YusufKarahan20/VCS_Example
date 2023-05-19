@@ -5,3 +5,7 @@ asal_sayi_toplam = 0
     for i in range(2, x+1):
         if x % i == 0:
             sayac += 1
+    if sayac == 1:
+        print(x, "asal sayıdır")           
+        asal_sayi += 1
+        asal_sayi_toplam += x              #sayı asal ise değerini bu değişkende tutuyorum
